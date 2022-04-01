@@ -1,5 +1,5 @@
 
-
+/* Links to fonts used */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans');
 
@@ -7,7 +7,7 @@ html{height: 100%;
 background-size:cover;
 background-repeat: no-repeat;
 position:  inherit;
-overflow: scroll ;
+overflow: scroll ;/* To enable the scroll effect */
  background: url(img/galaxy.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,6 +15,7 @@ overflow: scroll ;
   background-size: cover;
 }
 
+/* Navigation bar */
 nav{
    position: sticky;
    display: block;
@@ -47,14 +48,7 @@ nav ul{
 }
 
 }
-/* @media (min-width: 1025px) {
-  .title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  }
-  
-} */
+
 #logo:hover{
   font-size: 1.5em;
   color: #fff;
@@ -89,8 +83,8 @@ a{
   border-radius: 5px;
 }
 a:visited{color: #aaa;}
-/*a:hover{font-size: 1.5em;}*/
-a:active{}
+
+
 a.tag >span {width: 200px; float: left;
   color: rgba(255,255,255,.7);
   padding: 10px 10px 10px 20px;
@@ -124,10 +118,9 @@ article{
   -webkit-perspective: 1px;
   perspective: 1px;
   overflow: auto;
-  /* margin-top: 1px;
-  margin-left: 1px;
-  padding 0 */
+ 
 }
+
 .neon_text{
   text-shadow: -2px -2px 10px #00b4ff,
   2px 2px 10px #00b4ff,
@@ -146,6 +139,7 @@ a.planet> span em {
   color: rgba(255,255,255,.5);
   display: none;
 }
+
 a.planet >span {width: 200px; float: left;
   color: rgba(255,255,255,.7);
   padding: 10px 10px 10px 20px;
@@ -163,11 +157,12 @@ a.planet:hover > span { background-color: rgba(0,0,0,.6);
   0 0 60px #00b4ff,
   0 0 80px #00b4ff;
 }
+
 a.planet:hover > span em{display: block;
   text-shadow: none;
 }
 
-
+/* Planets arrangement */
 a#p1 { position: absolute; top :20%; left: -250%;
  transform: translateZ(-8px)scale(8);}
 a#p2 { position: absolute;top : 80%; left: 55%;
@@ -188,7 +183,7 @@ a#p9 { position: absolute;top : 88%;left: 90%;
   transform: translateZ(-0.1px)scale(3)}
 
 
-
+/* Footer */
 footer{
   color: white;
   width: 100%;
@@ -204,7 +199,6 @@ footer{
   0 0 80px #00b4ff;
   left: 0;
   bottom: 0;
-  /* background-color: blue; */
   margin-bottom: 0;
   position: sticky;top : 2000px; left: 10px
 }
@@ -212,6 +206,7 @@ footer{
 footer.a.planet:hover > span em{display: block;
 }
 
+/* Social Tags */
 .fa {
   padding: 5px;
   font-size: 30px;
